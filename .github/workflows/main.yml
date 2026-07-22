@@ -14,3 +14,8 @@ jobs:
 
       - name: List files
         run: ls -la
+
+      - name: Run Script
+        run: |
+          chmod +x scripts/greet.sh
+          ./scripts/greet.sh
